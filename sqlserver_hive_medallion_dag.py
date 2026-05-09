@@ -10,7 +10,6 @@ from airflow.exceptions import AirflowFailException
 from airflow.models import Variable
 from airflow.utils.trigger_rule import TriggerRule
 
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_ENV = "dev"
 DEFAULT_CONFIG = REPO_ROOT / "conf" / f"{DEFAULT_ENV}.yaml"
